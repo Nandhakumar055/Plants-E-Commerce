@@ -17,7 +17,7 @@
 .button-container{
     display: flex;
     align-items: center;
-    gap: 20px
+    gap: 20px;
 }
 
 .active-btn{
@@ -162,7 +162,7 @@
 .sm-filter-items-main-container{
     width: 200px;
     animation: fadeInDown 0.5s ease forwards;
-    z-index: 1;
+    
 }
 @media screen and (min-width: 768px) {
     .sm-filter-items-main-container{

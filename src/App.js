@@ -1,8 +1,6 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import Home from './components/Home'
-import Footer from './components/Footer'
-
-import './App.css'
+import ThankPage from './components/ThankPage'
 
 
 const App = () => {
@@ -10,7 +8,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route exact path="/" Component={Home} />
-        {/* <Route exact path="/" Component={Footer} /> */}
+        <Route path="/thank-you" Component={ThankPage} />
       </Routes>
     </BrowserRouter>
   )

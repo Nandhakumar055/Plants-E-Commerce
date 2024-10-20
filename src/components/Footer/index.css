@@ -1,7 +1,12 @@
 .footer-section-container{
-    padding: 50px;
+    padding: 20px;
     background-color: #c8ffa3;
     padding-bottom: 0px;
+}
+@media screen and (min-width:768px) {
+    .footer-section-container{
+        padding: 50px;
+    }
 }
 
 .footer-container{

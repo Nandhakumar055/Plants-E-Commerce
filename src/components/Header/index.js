@@ -1,6 +1,5 @@
 
 import './index.css'
-import { useState } from 'react';
 import { LuUser2 } from "react-icons/lu";
 import { CiSearch } from "react-icons/ci";
 import { PiPlantFill } from "react-icons/pi";
@@ -8,8 +7,6 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { BsCart3 } from "react-icons/bs";
 
 const Header = () => {
-   
-
    
     return(
         <div className='header-section-container'>
